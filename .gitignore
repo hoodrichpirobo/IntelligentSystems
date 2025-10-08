@@ -1,0 +1,50 @@
+# --- Python (cache, builds, tooling) ---
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Packaging / builds
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test & type-check caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Virtual environments (anywhere)
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment/version files
+.env
+.env.*
+.envrc
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS cruft
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
