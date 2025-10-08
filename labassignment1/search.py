@@ -1,11 +1,8 @@
-import heapq
-import math
-import time
+import heapq, math, time
 import numpy as np
 #import seaborn as sns
 #import tkinter as tk
 import matplotlib.pyplot as plt
-
 
 from tabulate import tabulate
 
